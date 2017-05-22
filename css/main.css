@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.sun{
+	width: 100px;
+	height: 100px;
+	background: #FFBF00;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	left: 200px;
+	top: 100px;
+}
+.floor{
+	width: 100%;
+	height: 80px;
+	background-color: green;
+	position: fixed;
+	bottom: 0;
+}
+.house-block{
+	width: 400px;
+	height: 200px;
+	background-color: #3B240B;
+	position: absolute;
+	bottom: 50px;
+	right: 120px;
+}
+.ceil{	
+	background-color: none;
+	width: 300px;
+	border-bottom: 100px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 60px;
+	position: absolute;
+	bottom: 200px;
+}
+.chimney {
+	background-color: coral;
+	height: 50px;
+	width: 20px;
+	position: absolute;
+	top: 70px;
+	left: 280px;
+}
+.smoke{
+	width: 15px;
+	height: 15px;
+	background: #FFBF00;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background-color: grey;
+	position: relative;
+	bottom: 50px;
+	left: 50px;
+}
+.smoke.uno{
+	bottom: 43px;
+	left: 35px;
+}
+.smoke.dos{
+	bottom: 50px;
+	left: 16px;
+}
+.door{
+	background-color: grey;
+	width: 80px;
+	height: 100px;
+	position: fixed;
+	bottom: 50px;
+	right: 370px;
+}
+.heart {
+  background-color: coral;
+  height: 30px;
+  margin: 0 10px;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: coral;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.heart:before {
+  top: -15px;
+  left: 0;
+}
+.heart:after {
+  left: 15px;
+  top: 0;
+}
+.window{
+	background-color: pink;
+	height: 60px;
+	width: 60px;
+	position: fixed;
+	bottom: 90px;
+	right: 200px;
+}
